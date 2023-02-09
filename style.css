@@ -146,7 +146,7 @@ button{
     font-size: 12px;
     font-weight: 300;
     line-height: 22px;
-    color: #808290;
+    color: var(--second-color);
     margin-top: 0.5rem;
     margin-bottom: 1rem;
 }
@@ -165,7 +165,7 @@ button{
 .description{
     font-size: 16px;
     line-height: 22px;
-    color: #444;
+    color: var(--second-color);
 }
 .lower_text{
     display: flex;
@@ -179,8 +179,10 @@ button{
     margin: auto;
     cursor: pointer;
     text-decoration: none;
-    background-color: #fff;
-    border: none;
+    background-color: var(--first-color);
+    color: var(--second-color);
+    border: 2px solid lightgray;
+    border-radius: 5px;
     box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 
                 0 2px 10px 0 rgb(0 0 0 / 12%);
     padding: 7px 25px;
